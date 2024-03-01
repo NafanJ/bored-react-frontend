@@ -1,2 +1,2 @@
 # bored-react-frontend
-Frontend fr the Bored API
+Frontend for the Bored API
