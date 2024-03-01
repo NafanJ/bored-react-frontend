@@ -28,23 +28,23 @@ function App() {
       <Card.Body>
         <Card.Title>Bored?</Card.Title>
         {/* Display the fetched activity or a loading message */}
-        <Card.Text style={{textTransform: 'capitalize'}}>
-        {backendData ? backendData.activity : 'Loading...'}
+        <Card.Text style={{ textTransform: 'capitalize' }}>
+          {backendData ? backendData.activity : 'Loading...'}
         </Card.Text>
       </Card.Body>
       <ListGroup className="list-group-flush">
-        <ListGroup.Item style={{textTransform: 'capitalize'}}>
-        Type: {backendData ? backendData.type : 'Loading...'}
-          </ListGroup.Item>
+        <ListGroup.Item style={{ textTransform: 'capitalize' }}>
+          Type: {backendData ? backendData.type : 'Loading...'}
+        </ListGroup.Item>
         <ListGroup.Item>
-        Participants: {backendData ? backendData.participants : 'Loading...'}
-          </ListGroup.Item>
+          Participants: {backendData ? backendData.participants : 'Loading...'}
+        </ListGroup.Item>
         <ListGroup.Item>
-        Price: {backendData ? backendData.price : 'Loading...'}
+          Price: {backendData ? backendData.price : 'Loading...'}
         </ListGroup.Item>
       </ListGroup>
       <Card.Body>
-       <Button variant="primary" onClick={fetchData}>Refresh Activity</Button>
+        <Button variant="primary" onClick={fetchData}>Refresh Activity</Button>
       </Card.Body>
     </Card>
   );
