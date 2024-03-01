@@ -3,6 +3,10 @@ body{
   justify-content: center;
 }
 
+#root > nav{
+  --bs-bg-opacity: 0;
+}
+
 .card-body{
   display: flex;
   justify-content: center;
