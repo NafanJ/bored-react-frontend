@@ -1,14 +1,26 @@
-body{
+body {
   display: flex;
   justify-content: center;
 }
 
-#root > nav{
+#root>nav {
   --bs-bg-opacity: 0;
 }
 
-.card-body{
+.card-body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.card-title h5{
+  padding: 0;
+}
+
+.CardTitle {
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+  gap: 1rem;
+  padding: 1rem;
 }
